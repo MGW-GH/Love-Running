@@ -69,6 +69,7 @@ nav {
     top: 100%;
 }
 
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -79,7 +80,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-
 }
 /* Main */
 main {
@@ -110,6 +110,32 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+/* Reasons section */
+#reasons {
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits > p {
+    padding: 0 20px 0 20px;
+}
+
+#reasons > hr {
+    margin: 5px 0;
+    border: 1px solid #3a3a3a;
 }
 
 /* Footer */
@@ -157,11 +183,13 @@ main {
     }
 
     /* Main content */
-    /* push main down to accomodate larger header */
+    
     main {
-        margin-top: 79px;
+    /* push main down to accomodate larger header */ 
+       margin-top: 79px;
     }
 
+    /* Hero image */
     #cover-text {
         width: 300px;
         right: 50px;
