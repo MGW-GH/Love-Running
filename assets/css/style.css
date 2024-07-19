@@ -136,13 +136,13 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits > p {
+#benefits p {
     padding: 0 20px 0 20px;
 }
 
-#benefits > hr {
+#benefits hr {
     margin: 5px 0;
-    border: 1px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
 }
 
 #circle-cover-bg {
@@ -310,7 +310,7 @@ main {
     }
 
     /* Reasons section */
-    #benefits-physical, #benefits-mental{
+    #benefits-physical, #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
